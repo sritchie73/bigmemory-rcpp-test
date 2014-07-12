@@ -1,0 +1,16 @@
+Package: BigMatrixRcppTest
+Type: Package
+Title: Big Matrix Rcpp Test Package
+Version: 1.0
+Date: 2014-07-12
+Author: Scott Ritchie
+Maintainer: Scott Ritchie <s.ritchie73@gmail.com>
+Description: A minimal package for using Rcpp in conjunction with bigmemeory.
+License: GPL-3
+Depends:
+    bigmemory
+Imports:
+    Rcpp (>= 0.11.2),
+    BH
+LinkingTo: Rcpp, bigmemory, BH
+SystemRequirements: C++11
